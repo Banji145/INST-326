@@ -1,6 +1,8 @@
-Class Premiere League
 """ A script to show what player was on top in the premiere league in the goals and assists category for the 2019/2020 season.
-This script will show the top players in each of the categories listed above.
+"""
+
+Class Premiere League
+""" This class will show the top players in each of the categories listed above.
 """
 
  Def Total Goals
@@ -29,3 +31,5 @@ Def Total Stats
     Returns:
         total_stats: A dataframe of total stats (goals and assists merged together) for each player.
     """
+if __name__ == "__main__":
+    print(total_stats.head())
